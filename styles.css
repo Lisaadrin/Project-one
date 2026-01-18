@@ -1,0 +1,66 @@
+@font-face {
+    font-family: basketball;
+    src: url(basketball.ttf);
+}
+body {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1800px;
+    height: 100vh;
+    justify-content: space-evenly;
+    color: white;
+    background-image: url("https://images.alphacoders.com/683/thumb-1920-683741.jpg");
+    background-repeat: no-repeat;
+    text-shadow: 0 0 1px black;
+    font-family: basketball;
+}
+
+.team {
+    font-size: 70px;
+}
+.side {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.number {
+    
+    margin: 15px auto;
+    font-size: 100px;
+}
+.score-board {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    color: black;
+    text-align: center;
+    border-radius: 20px;
+}
+.buttons {
+    display: flex;
+    width: 200px;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.button {
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+    font-size: 15px;
+    font-family: basketball;
+}
+#reset {
+    background-color: transparent;
+    font-size: 30px;
+    font-family: basketball;
+    padding: 5px 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+}
